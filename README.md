@@ -17,7 +17,7 @@ Execuția efectuată:
 
 Prima execuție docker build -t containers02 . - construiește imaginea.
 
-Cât timp a durat crearea imaginii? - Building 20.8s
+Cât timp a durat crearea imaginii? - Building 22.3s
 
 A doua execuție docker run --name=containers02 containers02 - execută imaginea creată.
 
@@ -33,7 +33,7 @@ Ce este afișat pe ecran? -
 
 diff
 Copy code
--rwxr-xr-x 1 root root 215 Feb 17 10:20 index.html
+-rwxr-xr-x 1 root root 215 Feb 29 21:40 index.html
 Concluzii:
 Cu ajutorul acestei lucrări de laborator, m-am familiarizat cu elementele de bază ale containerizării și am pregătit spațiul de lucru pentru următoarele lucrări de laborator.
 
