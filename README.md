@@ -1,32 +1,41 @@
-Lucrare de laborator nr.2
-Nume
+Lucrare de laborator nr. 2
+
+Nume:
 Prima aplicație Docker.
 
-Scopul
-Scopul lucrarii de laborator:
+Scopul:
+Scopul lucrării de laborator:
 
-Familiariza cu elementele de bază ale containerizării.
+Familiarizarea cu elementele de bază ale containerizării.
 Pregătirea spațiului de lucru pentru următoarele lucrări de laborator.
-Sarcina
-Instalarea Docker Desktop si verificarea acestuia.
+Sarcina:
+Instalarea Docker Desktop și verificarea acestuia.
 
-Pasii efectuati
-Executiile efectuate.
+Pașii efectuați:
 
-Prima executie docker build -t containers02 . - contruieste imaginea.
+Execuția efectuată:
+
+Prima execuție docker build -t containers02 . - construiește imaginea.
 
 Cât timp a durat crearea imaginii? - Building 20.8s
-A doua executie docker run --name=containers02 containers02 - executa imaginea creata.
+
+A doua execuție docker run --name=containers02 containers02 - execută imaginea creată.
 
 Ce a fost afișat în consolă? -
+csharp
+Copy code
 hello from 00b50b3da101
-A treia executie docker rm containers02 si docker run -ti --name containers02 containers02 bash. - Am sters containerul cu numele containers02, dupa executarea repetata am accesat imaginea.
+A treia execuție docker rm containers02 și docker run -ti --name containers02 containers02 bash - Am șters containerul cu numele containers02, după executarea repetată am accesat imaginea.
 
-In fereastra deschisa am executat cd /var/www/html/ si ls -l
+În fereastra deschisă am executat cd /var/www/html/ și ls -l.
+
 Ce este afișat pe ecran? -
--rwxr-xr-x 1 root root 215 Feb 17 10:20 index.html
-Concluzii
-Cu ajutorul acestei lucrari de laborator, m-am familiarizat cu elementele de baza ale contanizarii si am pregatit spatiul de lucru pentru urmatoarele lucrari de laborator.
 
-Bibliografie
-https://moodle.usm.md/mod/assign/view.php?id=282515
+diff
+Copy code
+-rwxr-xr-x 1 root root 215 Feb 17 10:20 index.html
+Concluzii:
+Cu ajutorul acestei lucrări de laborator, m-am familiarizat cu elementele de bază ale containerizării și am pregătit spațiul de lucru pentru următoarele lucrări de laborator.
+
+Bibliografie:
+Link către resursă
